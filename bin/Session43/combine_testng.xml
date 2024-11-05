@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+ 
+ <suite name="Suite">
+ 
+  <test  name="Test_C1_C2_1">
+    <classes>
+      <class name="Session43.C1"/>
+      <class name="Session43.C2"/>
+      <class name="Session43.C3_combining_All_Annotation"/>
+    </classes>
+  </test> <!-- Test_C1_C2 -->
+  
+   <test  name="Test_C1_C2_2">
+    <classes>
+      <class name="Session43.C1"/>
+      <class name="Session43.C2"/>
+      <class name="Session43.C3_combining_All_Annotation"/>
+    </classes>
+  </test> <!-- Test_C1_C2 -->
+</suite> <!-- Suite -->
